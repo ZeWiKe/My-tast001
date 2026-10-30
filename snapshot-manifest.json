@@ -1,0 +1,133 @@
+{
+  "createdAt": "2026-10-30T06:35:07.621Z",
+  "mode": "read-only-snapshot",
+  "models": 11,
+  "images": 14,
+  "files": [
+    {
+      "path": "/assets/models/03.glb",
+      "bytes": 2196692,
+      "sha256": "64bcef02646db7573e3cb59ddd9c620dec451be04f4bddd0baf8a5e322c7eeef"
+    },
+    {
+      "path": "/media/ad7895a7-741e-47d1-a372-2dac9fcd864a.jpg",
+      "bytes": 1086990,
+      "sha256": "9f63f751062fd30397cc8f9c0e8b045b67c3f4af2186901027a987379c94364f"
+    },
+    {
+      "path": "/media/54f13167-24fe-4417-a280-f29aca2c63aa.jpg",
+      "bytes": 972463,
+      "sha256": "31bbc682eda91dd082b91404ee90b333f310dcba74b4118778539a1149cd2976"
+    },
+    {
+      "path": "/media/c5e0ab88-0b15-4d98-b393-e549c22f5385.jpg",
+      "bytes": 2549102,
+      "sha256": "e8a1040fceee801d7aad368e91cd605438763a4e49d822f5a377c31a58d21ac5"
+    },
+    {
+      "path": "/media/f4cee555-35c6-4954-bae1-e01d32d89b74.jpg",
+      "bytes": 555973,
+      "sha256": "fdb5a49f34272698817d518a16d44fc49f2bdf0252d047bb668c12a6a280232d"
+    },
+    {
+      "path": "/media/33e8581e-ba95-4290-87de-8682aafe8c16.jpg",
+      "bytes": 478476,
+      "sha256": "4e9fc287707370662793a92d21a6232f4a920bc656c285bc4ea754a62fa43822"
+    },
+    {
+      "path": "/assets/models/08.glb",
+      "bytes": 734936,
+      "sha256": "e69f11e3f94e78a38188b17709eaf1089da517a04353834c86d9dd654b4ab1d4"
+    },
+    {
+      "path": "/assets/models/09.glb",
+      "bytes": 1632420,
+      "sha256": "bf812e5d4d2c882b8109685caf2a8d8f86a912c7518bfb383f49fe563272a044"
+    },
+    {
+      "path": "/media/78247b21-5a5a-49a4-a7a8-065c9d5d80d8.jpg",
+      "bytes": 330261,
+      "sha256": "dc0c8ba1fe96ec18d12edf861388bf6e4c780bd54e2219fbf4e0baad2b5e068d"
+    },
+    {
+      "path": "/media/e2b707de-6f77-4ca2-84f7-1b818cf132b5.jpg",
+      "bytes": 410538,
+      "sha256": "db3308dcf2b6446edffd3579f6699e412cc6127279f1bbaa4733541e0932822f"
+    },
+    {
+      "path": "/media/53d9a667-1e55-45e1-8c51-5d40ba6a04c3.jpg",
+      "bytes": 517491,
+      "sha256": "db3ac1c46eb5f262176fa46d34062e8509fe3f389ac4bdce33c338f54161f49c"
+    },
+    {
+      "path": "/assets/models/11.glb",
+      "bytes": 1224976,
+      "sha256": "048e8fe1beb0427efcafd1c011c9c8f67f04cc93ec3431a770dcaa1b7e90ba6a"
+    },
+    {
+      "path": "/media/ce6d624b-a79e-4d3e-88e9-42b79ab222de.png",
+      "bytes": 1428172,
+      "sha256": "fde4f08c90195cd7d8255b58658d1a0a751fcb9e09667f2b64811b0ab64bd137"
+    },
+    {
+      "path": "/media/43430849-78b1-4ac1-be34-493858de0b10.png",
+      "bytes": 1148516,
+      "sha256": "e519b63ed841a8ce35f176e53bcce96bed78c9e588b45d6d56dbdc70d732be18"
+    },
+    {
+      "path": "/media/4ef69c6e-bfe2-404e-98b0-9478db9b9602.png",
+      "bytes": 1334450,
+      "sha256": "becd02741cac5eca22718baeb1d97119355eafc9f9d2ad6b3606ed5eb775accb"
+    },
+    {
+      "path": "/assets/models/12.glb",
+      "bytes": 1363556,
+      "sha256": "38f6d20d8e9dcaf5198caf27adefedd11b18efafc017827e05bbe189445405d5"
+    },
+    {
+      "path": "/assets/models/13.glb",
+      "bytes": 2504544,
+      "sha256": "20027ea0dddbf7fe2966bdf4004c7cdac4f0f497f974f266a81865eca4a1b1bc"
+    },
+    {
+      "path": "/assets/models/15.glb",
+      "bytes": 1977164,
+      "sha256": "f00bd9c7528a555767f47ccbecaaf1d7d4469ec8cd1fee824509b6011e8e963f"
+    },
+    {
+      "path": "/assets/models/16.glb",
+      "bytes": 1007844,
+      "sha256": "2130d47b13af47654357834df5b22ebf6edb5e90fb19a5b330b677b4d599ddcf"
+    },
+    {
+      "path": "/media/f9b39408-ac42-4f59-ad93-1e253167b281.png",
+      "bytes": 1514664,
+      "sha256": "cad4008e7f8d5d3caa2c720ccf78dcc80c6ed1830e8cd2658a0df3c8d1bfff61"
+    },
+    {
+      "path": "/media/72c47148-a4b1-4443-a03d-d8016a5bb0d4.png",
+      "bytes": 3012137,
+      "sha256": "c8aed5245d70effedba4c43a2cae36180256b49d8d78a5a40c47da47e3ebad26"
+    },
+    {
+      "path": "/media/62d5b045-035c-48f4-bd38-d9c3f26a2671.png",
+      "bytes": 2632180,
+      "sha256": "8253870c2b8bb4124af627d520d85a4837b7750ab44dfbffee5b168bfd4ed8ec"
+    },
+    {
+      "path": "/assets/models/F1.glb",
+      "bytes": 2086872,
+      "sha256": "f4da051c777fbab7626ebb7f59f57693e9f7308ce86468dceda500b0e526edb2"
+    },
+    {
+      "path": "/assets/models/F2.glb",
+      "bytes": 923808,
+      "sha256": "3e437cf1592a4b578dc7e14f67104c1b4fd904535bd54b6b8bef950bc71b8ad1"
+    },
+    {
+      "path": "/assets/models/F3.glb",
+      "bytes": 1892328,
+      "sha256": "b7c3bd8042bda12688be44d9e0244c6025908016f6a80edfff143744f35bd29b"
+    }
+  ]
+}
