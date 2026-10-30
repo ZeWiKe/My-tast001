@@ -14,18 +14,19 @@ In repository **Settings → Pages**, select **GitHub Actions**. The publishing 
 
 The final website address must be read from GitHub's Pages deployment; do not treat a guessed `github.io` address as a successful deployment.
 
-## Local verification
+## Published site
 
-Node.js 22 or newer is sufficient; no package installation is required.
+https://zewike.github.io/My-tast001/
+
+## Build verification
+
+GitHub Actions assembles `_site` from the display source and three asset archives, then runs:
 
 ```sh
-node scripts/verify.mjs
-node scripts/preview.mjs
+node scripts/verify-published.mjs _site
 ```
 
-Open `http://127.0.0.1:5176/My-tast001/`. This deliberately tests a repository subpath rather than a domain root.
-
-Localhost is only a preview address and cannot be shared with customers.
+This checks the model and image counts and every product asset SHA-256 digest before publishing. The deployment artifact contains the extracted static website; no server-side application is required.
 
 ## Ownership
 
