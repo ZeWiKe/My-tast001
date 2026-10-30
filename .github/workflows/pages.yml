@@ -1,0 +1,42 @@
+name: Publish Smart Tag Showroom
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Assemble static showroom
+        run: |
+          mkdir -p _site
+          cp ./*.js ./*.css index.html catalog.json .nojekyll snapshot-manifest.json _site/
+          for archive in smart-tag-pages-assets.zip smart-tag-pages-media.zip smart-tag-pages-vendor.zip; do
+            unzip -q "$archive" -d _site
+          done
+          node scripts/verify-published.mjs _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
